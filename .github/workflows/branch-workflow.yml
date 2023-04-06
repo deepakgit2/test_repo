@@ -1,0 +1,23 @@
+name: Workflow Testing
+on:
+  push
+#   schedule:
+#     - cron: '1-59/6 * * * *'
+jobs:
+  test_schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: dir visulization
+        run: pwd
+      - name: Clonning
+        uses: actions/checkout@v3
+        with:
+          ref: feature-branch
+      - name: dir visulization
+        run: ls
+#       - name: dir visulization
+#         run: cd 
+      - name: Fourth Step
+        run: pwd
+      - name: curren dir
+        run: python hello.py
