@@ -26,3 +26,5 @@ jobs:
         run: mlflow --version
       - name: 10 Step
         run: ls
+      - name: 10 Step
+        run: docker version
