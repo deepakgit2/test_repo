@@ -1,7 +1,8 @@
 name: Workflow Testing
 on:
-  schedule:
-    - cron: '1-59/6 * * * *'
+  push
+#   schedule:
+#     - cron: '1-59/6 * * * *'
 jobs:
   test_schedule:
     runs-on: ubuntu-latest
@@ -9,12 +10,10 @@ jobs:
       - name: First step
         run: echo "Running Perfectly.................................."
       - name: Second Step
-        run: python --version
+        run: ls
       - name: Third Step
-        run: conda env list
+        run: touch sample.txt
       - name: Fourth Step
         run: ls
       - name: 5 Step
         run: pwd
-      - name: 10 Step
-        run: docker version
