@@ -7,6 +7,8 @@ jobs:
   test_schedule:
     runs-on: ubuntu-latest
     steps:
+      - name: dir visulization
+        run: pwd
       - name: Clonning
         uses: actions/checkout@v3
 #         with:
