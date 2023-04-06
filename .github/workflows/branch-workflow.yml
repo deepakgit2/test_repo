@@ -1,4 +1,4 @@
-name: Workflow Testing
+name: Branch Workflow Testing
 on:
   push
 #   schedule:
