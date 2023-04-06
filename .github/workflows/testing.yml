@@ -16,9 +16,5 @@ jobs:
         run: ls
       - name: 5 Step
         run: pwd
-      - name: 6 Step
-        run: conda create --name new_env
-      - name: 10 Step
-        run: ls
       - name: 10 Step
         run: docker version
