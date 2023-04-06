@@ -7,13 +7,15 @@ jobs:
   test_schedule:
     runs-on: ubuntu-latest
     steps:
-      - name: First step
-        run: echo "Running Perfectly............................"
-      - name: Second Step
+      - name: Clonning
+        uses: actions/checkout@v3
+#         with:
+#           path: main
+      - name: dir visulization
         run: ls
-      - name: Third Step
-        run: touch sample.txt
       - name: Fourth Step
+        run: cd test
+      - name: dir visulaization
         run: ls
-      - name: 5 Step
+      - name: curren dir
         run: pwd
