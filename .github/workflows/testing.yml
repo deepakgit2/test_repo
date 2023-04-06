@@ -11,8 +11,8 @@ jobs:
         run: pwd
       - name: Clonning
         uses: actions/checkout@v3
-#         with:
-#           path: main
+        with:
+          path: feature-branch
       - name: dir visulization
         run: ls
       - name: Fourth Step
