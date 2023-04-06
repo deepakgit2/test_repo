@@ -20,4 +20,4 @@ jobs:
       - name: Fourth Step
         run: pwd
       - name: curren dir
-        run: pwd
+        run: python hello.py
