@@ -12,3 +12,15 @@ jobs:
         run: python --version
       - name: Third Step
         run: conda env list
+      - name: Fourth Step
+        run: ls
+      - name: 5 Step
+        run: pwd
+      - name: 6 Step
+        run: conda create --name new_env
+      - name: 7 Step
+        run: conda activate new_env
+      - name: 8 Step
+        run: conda install -c conda-forge mlflow
+      - name: 9 Step
+        run: mlflow --version
