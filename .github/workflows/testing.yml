@@ -19,7 +19,7 @@ jobs:
       - name: 6 Step
         run: conda create --name new_env
       - name: 7 Step
-        run: conda activate new_env
+        run: source activate new_env
       - name: 8 Step
         run: conda install -c conda-forge mlflow
       - name: 9 Step
