@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: First step
-        run: echo "Running Perfectly.................................."
+        run: echo "Running Perfectly............................"
       - name: Second Step
         run: ls
       - name: Third Step
