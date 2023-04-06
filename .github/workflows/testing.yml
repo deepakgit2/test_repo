@@ -18,10 +18,6 @@ jobs:
         run: pwd
       - name: 6 Step
         run: conda create --name new_env
-      - name: 7 Step
-        run: touch sample_file_to_see_data_persistancy.txt
-      - name: 9 Step
-        run: mlflow --version
       - name: 10 Step
         run: ls
       - name: 10 Step
