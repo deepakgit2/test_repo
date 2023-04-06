@@ -8,3 +8,5 @@ jobs:
     steps:
       - name: First step
         run: echo "Running Perfectly.................................."
+      - name: Second Step
+        run: python --version
