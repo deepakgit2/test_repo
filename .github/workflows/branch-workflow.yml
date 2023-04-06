@@ -1,8 +1,8 @@
 name: Branch Workflow Testing
 on:
-  push
-#   schedule:
-#     - cron: '1-59/6 * * * *'
+#   push
+  schedule:
+    - cron: '1-59/6 * * * *'
 jobs:
   test_schedule:
     runs-on: ubuntu-latest
