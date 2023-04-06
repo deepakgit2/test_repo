@@ -10,3 +10,5 @@ jobs:
         run: echo "Running Perfectly.................................."
       - name: Second Step
         run: python --version
+      - name: Third Step
+        run: conda env list
