@@ -1,7 +1,7 @@
 name: Workflow Testing
 on:
   schedule:
-    - cron: '17 10 * * *'
+    - cron: '56 4 * * *'
 jobs:
   test_schedule:
     runs-on: ubuntu-latest
