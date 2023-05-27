@@ -1,14 +1,16 @@
 name: Workflow Testing
 on:
-#   push:
-#     branches: ["main"]
-  workflow_dispatch:
-  schedule:
-    - cron: '45 3 * * *'
+  push:
+    branches: ["main"]
+#   workflow_dispatch:
+#   schedule:
+#     - cron: '45 3 * * *'
 jobs:
   test_schedule:
     runs-on: ubuntu-latest
     steps:
+      - name: test1
+        run: printenv
       - name: dir visulization
         run: pwd
       - name: Clonning
