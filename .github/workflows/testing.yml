@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: test1
         run: printenv
-      - name: dir visulization
+      - name: dir visulization 
         run: pwd
       - name: Clonning
         uses: actions/checkout@v3
