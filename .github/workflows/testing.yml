@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: test1
         run: printenv
+      - name: test2
+        run: echo $ENV_VAR1 $VAR1
       - name: dir visulization 
         run: pwd
       - name: Clonning
